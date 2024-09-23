@@ -1,0 +1,11 @@
+{
+    "name": "ubuntu/teste-textract",
+    "autoload": {
+        "psr-4": {
+            "Ubuntu\\TesteTextract\\": "src/"
+        }
+    },
+    "require": {
+        "aws/aws-sdk-php": "^3.33"
+    }
+}
