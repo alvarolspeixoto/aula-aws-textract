@@ -8,7 +8,7 @@ use Aws\Exception\AwsException;
 $bucketName = 'nome-do-bucket'; // Insira o nome do bucket criado no S3
 $file = 'nome-do-arquivo'; // Insira o nome do arquivo do S3 que deseja analisar
 
-$featureTypesExample = ['SIGNATURES']; // Valores aceitos: TABLES | FORMS | QUERIES | SIGNATURES | LAYOUT
+$featureTypesExample = ['TABLES']; // Valores aceitos: TABLES | FORMS | QUERIES | SIGNATURES | LAYOUT
 $queriesConfig = [
         'Queries' => [
             ['Text' => 'What organization issued this document?'],
